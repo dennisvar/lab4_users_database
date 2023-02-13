@@ -6,7 +6,6 @@ const userRoutes = require("./routes/user");
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-// app.use(express.json());
 
 const PORT = 5708 || process.env.PORT;
 const DB = "mongodb+srv://dennis:varghese@cluster0.xnw7o6s.mongodb.net/101020193_COMP3133_Lab4"
